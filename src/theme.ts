@@ -5,22 +5,23 @@ import {
     responsiveFontSizes,
 } from "@pankod/refine-mui";
 
+
 const LightTheme = createTheme({
     ...DefaultLightTheme,
     timeLine: {
         color: {
-            pending: "#fff7e6",
-            ready: "#e6fffb",
-            delivered: "#e6f7ff",
-            cancelled: "#fff1f0",
-            onTheWay: "#f6ffed",
+            pending: "#3d6cb9",
+            ready: "#00d1ff",
+            delivered: "#00fff0",
+            cancelled: "#2d767f",
+            onTheWay: "#2d767f",
         },
         dotColor: {
-            pending: "#ffa940",
-            ready: "#36cfc9",
-            delivered: "#40a9ff",
-            cancelled: "#ff4d4f",
-            onTheWay: "#73d13d",
+            pending: "#3d6cb9",
+            ready: "#00d1ff",
+            delivered: "#00fff0",
+            cancelled: "#2d767f",
+            onTheWay: "#2d767f",
         },
     },
 });
